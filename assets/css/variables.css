@@ -1,0 +1,26 @@
+:root {
+  --color-verde: #056b3a;
+  --color-azul: #00338f;
+  --color-amarillo: #fad505;
+  --color-rojo: #fb5f04;
+  --color-magenta: #fc238b;
+  --color-negro: #2f2f30;
+  --color-crema: #f0e8bb;
+
+  --color-bg: var(--color-crema);
+  --color-text: var(--color-negro);
+
+  --color-accent-verde: var(--color-verde);
+  --color-accent-azul: var(--color-azul);
+  --color-accent-amarillo: var(--color-amarillo);
+  --color-accent-rojo: var(--color-rojo);
+  --color-accent-magenta: var(--color-magenta);
+
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
