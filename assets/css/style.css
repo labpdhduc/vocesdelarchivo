@@ -1,34 +1,34 @@
 @import url('variables.css');
 
-* {
-  box-sizing: border-box;
+.about-image {
+  max-height: none;
+  object-fit: contain;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem;
-  text-align: center;
-}
-
-.banner {
-  max-width: 100%;
-  width: 800px;
-  height: auto;
+.about-text-block {
+  margin-left: 27%;
+  width: 73%;
 }
 
 .coming-soon {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  font-family: var(--font-body);
+  display: block;
+  text-align: center;
   font-weight: 700;
+  color: var(--color-azul);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.social-links a {
+  color: var(--color-azul);
+}
+
+.social-links a:hover {
   color: var(--color-magenta);
 }

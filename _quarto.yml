@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  title: "Voces del Archivo"
+  site-url: "https://vocesdelarchivo.cl"
+
+format:
+  html:
+    css:
+      - assets/css/variables.css
+      - assets/css/style.css
+      - assets/css/fonts.css

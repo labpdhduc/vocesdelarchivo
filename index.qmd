@@ -1,0 +1,16 @@
+---
+page-layout: full
+image: assets/images/banner_trans.png
+image-shape: rectangle
+about:
+  template: marquee
+---
+
+::: {.about-text-block}
+[¡Pronto más información!]{.coming-soon .font-flegrei}
+
+::: {.social-links}
+[{{< fa brands instagram >}}](https://www.instagram.com/labpdhduc)
+[{{< fa brands linkedin >}}](https://www.linkedin.com/company/laboratorio-de-patrimonio-documental-y-humanidades-digitales-uc/)
+:::
+:::
