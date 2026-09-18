@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Flegrei';
+  src: url('../fonts/Flegrei.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-flegrei { font-family: 'Flegrei', sans-serif; }
