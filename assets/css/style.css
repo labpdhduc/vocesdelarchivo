@@ -1,5 +1,3 @@
-@import url('variables.css');
-
 .about-image {
   max-height: none;
   object-fit: contain;
@@ -31,4 +29,55 @@
 
 .social-links a:hover {
   color: var(--color-magenta);
+}
+
+.nav-footer {
+  background-color: var(--color-bg);
+}
+
+.nav-footer-left,
+.nav-footer-right {
+  display: none;
+}
+
+.nav-footer .nav-footer-center {
+  flex: 1 1 100%;
+  margin-top: 0;
+}
+
+.footer-financiamiento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: var(--color-text);
+}
+
+.footer-financiamiento p {
+  margin: 0;
+  max-width: 46rem;
+  text-align: left;
+}
+
+.footer-financiamiento p:has(.footer-logo) {
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  height: 100px;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .footer-financiamiento {
+    flex-direction: column;
+  }
+
+  .footer-financiamiento p {
+    text-align: center;
+  }
 }
