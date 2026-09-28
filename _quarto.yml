@@ -4,6 +4,13 @@ project:
 website:
   title: "Voces del Archivo"
   site-url: "https://vocesdelarchivo.cl"
+  page-footer:
+    center: |
+      ::: {.footer-financiamiento}
+      ![](/assets/images/logo-serpat.png){.footer-logo fig-alt="Logo del Servicio Nacional del Patrimonio Cultural"}
+
+      Proyecto financiado por el Fondo del Patrimonio Cultural, Convocatoria 2025, Servicio Nacional del Patrimonio Cultural
+      :::
 
 format:
   html:
