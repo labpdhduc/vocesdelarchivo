@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - assets/fonts
 
 website:
   title: "Voces del Archivo"
@@ -14,7 +16,11 @@ website:
 
 format:
   html:
-    css:
-      - assets/css/variables.css
-      - assets/css/style.css
-      - assets/css/fonts.css
+    theme:
+      - default
+      - assets/css/custom.scss
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
